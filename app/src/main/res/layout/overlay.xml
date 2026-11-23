@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CC1A1A1A"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FF CHEAT"
+        android:textColor="#00FF88"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="INICIAR JOGO + MENU"/>
+
+    <CheckBox
+        android:id="@+id/cb_esp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESP"
+        android:textColor="#FFFFFF"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/cb_aim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aimbot HS"
+        android:textColor="#FFFFFF"
+        android:checked="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOV"
+        android:textColor="#FFFFFF"/>
+
+    <SeekBar
+        android:id="@+id/sb_fov"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progress="90"/>
+</LinearLayout>
